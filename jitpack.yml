@@ -1,0 +1,4 @@
+jdk:
+  - openjdk11
+install:
+  - mvn install:install-file -Dfile=lib/masmgc-sdk-0.0.1.jar -DgroupId=com.masmgc -DartifactId=masmgc-sdk -Dversion=0.0.1 -Dpackaging=jar
