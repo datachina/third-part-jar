@@ -1,6 +1,5 @@
 jdk:
   - openjdk11
 install:
-  - mvn install:install-file -Dfile=lib/masmgc-sdk-0.0.1.jar -DgroupId=com.masmgc -DartifactId=masmgc-sdk -Dversion=0.0.1 -Dpackaging=jar
-  - mvn install:install-file -Dfile=lib/fcms-lib-1.0.0.jar -DgroupId=com.sansi -DartifactId=fcms-lib -Dversion=1.0.0 -Dpackaging=jar
-  - mvn install:install-file -Dfile=lib/ocr-release.aar -DgroupId=com.example.ocr -DartifactId=ocr -Dversion=1.0 -Dpackaging=aar
+  - mvn install:install-file -Dfile=lib/lcprintsdk1.1-release.aar -DgroupId=com.example.ocr -DartifactId=lc-print-sdk -Dversion=1.0 -Dpackaging=aar
+  - mvn install:install-file -Dfile=lib/Hc800PrintSDK-release.aar -DgroupId=com.jidaojiuyou.hc800.print.sdk -DartifactId=hc800-print-sdk -Dversion=1.0 -Dpackaging=aar
