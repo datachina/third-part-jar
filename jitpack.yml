@@ -1,5 +1,5 @@
 jdk:
   - openjdk11
 install:
-  - mvn install:install-file -Dfile=lib/lcprintsdk1.1-release.aar -DgroupId=com.example.ocr -DartifactId=lc-print-sdk -Dversion=1.0 -Dpackaging=aar
-  - mvn install:install-file -Dfile=lib/Hc800PrintSDK-release.aar -DgroupId=com.jidaojiuyou.hc800.print.sdk -DartifactId=hc800-print-sdk -Dversion=1.0 -Dpackaging=aar
+  - mvn install:install-file -Dfile=lib/artemis-http-client-1.1.7.jar -DgroupId=com.hikvision.ga -DartifactId=artemis-http-client -Dversion=1.1.7 -Dpackaging=jar
+  - mvn install:install-file -Dfile=lib/artemis-http-client-1.1.7-sources.jar -DgroupId=com.hikvision.ga -DartifactId=artemis-http-client -Dversion=1.1.7 -Dpackaging=jar -Dclassifier=sources
